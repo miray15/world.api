@@ -1,5 +1,5 @@
 json.extract! world, :id, :created_at, :updated_at
-json.url world_url(world, format: :json)
+json.url worlds_url(world, format: :json)
 
 json.id world.id 
 json.name world.id 
